@@ -1,0 +1,6 @@
+let alphabet = "abcdefghijklmnopqrstuvwxyz";
+let word = '';
+while (word.length < 6) {
+  word += alphabet[Math.floor(Math.random() * alphabet.length)];
+  }
+console.log(word);
